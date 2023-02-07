@@ -1,0 +1,35 @@
+.flex{
+    background-color: #eee;
+    padding: 2px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo, .search{
+    flex:1;
+}
+.menu{
+    flex:1;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:400px) {
+    .flex{
+        flex-direction: row;
+        padding: 0 5px;
+    }
+    .logo, .search{
+        flex:1;
+    }
+    .menu{
+        flex:4;
+        background-color:red;
+    }
+}
